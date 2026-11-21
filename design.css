@@ -1,0 +1,17 @@
+body {
+    background: #006bb6;
+    color: #ffffff;
+}
+
+h1 {
+    color: #f58426;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.about {
+    color: #ffffff;
+}
+
+.music {
+    color: #ffd200;
+}

@@ -1,0 +1,19 @@
+Prompt:
+Write one complete HTML file for a simple personal webpage.
+Include the CSS inside the same file.
+- A large heading with the name Adam Preddy
+- An image file named me.jpeg in the same folder,
+  shown 200 pixels wide and 300 pixels tall
+- An "About Me" label
+- A short three-line bio
+- Background color #006bb6
+- Heading color #f58426
+
+Did MyPhoto Appear?
+Yes. The AI used the exact filename me.jpeg with a relative path, so the photo loaded on the live ai.html page. It set the 200x300 size in CSS with object-fit: cover, so the photo is cropped instead of stretched.
+
+AltText?
+The AI's alt text was "Portrait photo of Adam Preddy smiling." It isn't accurate: I'm not smiling in the photo, and it's a full-body street shot, not a studio portrait. The AI never saw the picture and guessed. I replaced it with "Adam in a blue and orange Knicks jacket standing on a tree-lined city street."
+
+One thing the AI Page does that mine does not:
+The AI's page centers everything using flexbox and gives the photo rounded corners and a drop shadow. It also sets a sans-serif font (Arial), so its text doesn't use the browser's default Times font like mine does.
